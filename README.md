@@ -5,3 +5,4 @@ An artist gallery webpage. Includes a home page that links to a gallery page and
 Includes all requirments for final project. 
 # Problems and notes:
   Nod_modules/ folder will not upload. I have removed the username and password from the mongo server connection.
+  To start, replace username and password back into mongo server link, go to the folder in command prompt or bash and type " npm run dev " after that visit localhost:3000 in browser to view page.
