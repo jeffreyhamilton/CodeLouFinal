@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,200' rel='stylesheet' type='text/css'>
+	<title>Image Gallery</title>
+</head>
+<body>
+		<h1><a href="Home.html">Jeff Hamilton</a></h1>
+		<body ng-app>
+				<nav class="{{active}}">
+					<a href="gallery.html" class="home"  ng-click="go('/gallery')">Gallery</a>
+						<a href="views/index.ejs" class="index" ng-click="go('/index')">Discussion</a>
+				</nav>
+	<ul id="imageGallery">
+		<li><a href="images/ACallToHim.jpg"><img src="images/ACallToHim.jpg" width="150" alt="A Call to Him &#169; Jeff Hamilton"></a></li>
+		<li><a href="images/Akuma.jpg"><img src="images/Akuma.jpg" width="150" alt="Akuma &#169; Jeff Hamilton"></a></li>
+		<li><a href="images/GatesToNowhere.jpg"><img src="images/GatesToNowhere.jpg" width="150" alt="Gates To Nowhere &#169; Jeff Hamilton"></a></li>
+		<li><a href="images/Gaurdian.jpg"><img src="images/Gaurdian.jpg" width="150" alt="Gaurdian &#169; Jeff Hamilton"></a></li>
+		<li><a href="images/LilGhost.jpg"><img src="images/LilGhost.jpg" width="150" alt="Lil Ghost &#169; Jeff Hamilton"></a></li>
+		<li><a href="images/Mother.jpg"><img src="images/Mother.jpg" width="150" alt="Mother &#169; Jeff Hamilton"></a></li>
+		<li><a href="images/TheNightSky.JPG"><img src="images/TheNightSky.JPG" width="150" alt="The Night Sky &#169; Jeff Hamilton"></a></li>
+	</ul>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/gallery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/controllers/MainController.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,200' rel='stylesheet' type='text/css'>
+  <title>Discussion</title>
+</head>
+<body>
+  <h1><a href="Home.html">Jeff Hamilton</a></h1>
+	<body ng-app>
+			<nav class="{{active}}">
+				<a href="gallery.html" class="home"  ng-click="go('/gallery')">Gallery</a>
+				<a href="views/index.ejs" class="index" ng-click="go('/index')">Discussion</a>
+			</nav>
+
+  <form action="/items" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="quote" name="quote">
+    <button type="submit">Submit</button>
+  </form>
+  <script src="js/controllers/MainController.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+</body>
+</html>

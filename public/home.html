@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,200' rel='stylesheet' type='text/css'>
+	<title>Jeff Hamilton</title>
+</head>
+<body>
+	<h1><a href="Home.html">Jeff Hamilton</a></h1>
+	<body ng-app>
+			<nav class="{{active}}">
+				<a href="gallery.html" class="home"  ng-click="go('/gallery')">Gallery</a>
+					<a href="http://localhost:3000/" class="index" ng-click="go('/index')">Discussion</a>
+			</nav>
+	<center>
+			<img src="images/OctoLord.jpg" height="500" width="500" alt="Octo Lord © Jeff Hamilton">
+	</center>
+	<script src="js/controllers/MainController.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+</body>
+</html>
